@@ -29,7 +29,7 @@ function About() {
         transition ={{duration: 1}}
         
         className='mx-auto'>
-              <img src={Self} style={{width: '250px'}} className='rounded-full drop-shadow-xl bg-gradient-to-b from-[#c5d9f8]'/>
+              <img src={Self} style={{width: '250px'}} className='rounded-full drop-shadow-xl bg-gradient-to-b from-[#c5d9f8]' alt='man-smiling'/>
         </motion.div>
         <motion.div 
         initial={{x:0, opacity:0}}
