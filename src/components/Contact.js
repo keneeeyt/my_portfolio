@@ -88,8 +88,8 @@ function Contact() {
           whileHover={{scale: 1.1}}
           transition= {{duration: 0.3}}
           
-          className='btn w-[60%] md:w-[40%] lg:w-[30%] mt-5'>
-            <button type='submit'>Send</button>
+          className='submit w-[60%] md:w-[40%] lg:w-[30%] mt-5'>
+            <button type='submit' className='w-[100px]'>Send</button>
           </motion.div>
           </form>
           </motion.div>

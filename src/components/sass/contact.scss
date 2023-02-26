@@ -5,9 +5,8 @@
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap:0.5rem;
 
-@media screen and (max-width: 700px){
-    grid-template-columns: 1fr;
-}
+
+
 
 
 .socials_icons {
@@ -53,4 +52,16 @@
    
   }
 
+
+
+}
+
+.submit button {
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 30px ;
+    padding-right: 30px;
+    border-radius:7px 7px 30px 7px ;
+    border: 2px solid #06223F;
+    font-weight: 500;
 }
