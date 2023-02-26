@@ -3,7 +3,6 @@ import { projectNavs } from './data';
 import './sass/skills.scss';
 import { projectImages } from './data';
 import {AiFillGitlab} from 'react-icons/ai';
-import { Link } from 'react-router-dom';
 import {FiEye} from 'react-icons/fi';
 import { motion } from 'framer-motion';
 
@@ -59,7 +58,7 @@ function Portfolio() {
             return (
            
               <div className='images max-w-[380px] h-[250px] mx-auto relative' key={project.id}>
-              <img src={project.img} alt='project-image' className='rounded-lg drop-shadow-lg' />
+              <img src={project.img} alt='projects' className='rounded-lg drop-shadow-lg' />
             <motion.div 
             initial={{opacity: 0}}
             whileHover={{opacity: [0, 1]}}

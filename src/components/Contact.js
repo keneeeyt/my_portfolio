@@ -1,12 +1,11 @@
 import React, {useRef} from 'react';
 import { contacts } from './data';
-import { socialIcons } from './data';
 import './sass/skills.scss';
 import './sass/contact.scss';
 import { motion } from 'framer-motion';
 import { FaFacebook, FaInstagram, FaLinkedin, FaWhatsapp} from 'react-icons/fa';
 import emailjs from '@emailjs/browser';
-import { toast, Toast, Toaster } from 'react-hot-toast';
+import { toast, Toaster } from 'react-hot-toast';
 function Contact() {
   const form = useRef();
 
@@ -57,10 +56,10 @@ function Contact() {
                 )
               })}
               <div className='flex mt-5 space-x-3 text-[text-dark_primary]'>
-                <a href='https://www.facebook.com/gugmapa/' target='_blank'><FaFacebook  size={26}/></a>
-               <a href='https://www.instagram.com/ayalageee/' target='_blank'><FaInstagram size={26} /></a>
-                <a href='https://www.linkedin.com/in/kenneth-cervantes' target='_blank'><FaLinkedin size={26} /></a>
-                <a href='#'><FaWhatsapp  size={26}/></a>
+                <a href='https://www.facebook.com/gugmapa/' target='_blank' rel="noreferrer"><FaFacebook  size={26}/></a>
+               <a href='https://www.instagram.com/ayalageee/' target='_blank' rel="noreferrer"><FaInstagram size={26} /></a>
+                <a href='https://www.linkedin.com/in/kenneth-cervantes' target='_blank' rel="noreferrer"><FaLinkedin size={26} /></a>
+                <a href='#home'><FaWhatsapp  size={26}/></a>
               </div>
           </motion.div>
           <motion.div 

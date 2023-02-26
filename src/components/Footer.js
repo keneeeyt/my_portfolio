@@ -1,5 +1,4 @@
 import React from 'react';
-import { socialIcons } from './data';
 import { FaFacebook, FaInstagram, FaLinkedin, FaWhatsapp} from 'react-icons/fa';
 import { motion } from 'framer-motion';
 
@@ -19,10 +18,10 @@ function footer() {
                     <h5 className='text-[0.85rem]'>Follow Me</h5>
                     <div className='h-[2px] w-[3rem] bg-[#c5d9f8]'></div>
                     <div className='flex space-x-3 text-[text-dark_primary]'>
-                    <a href='https://www.facebook.com/gugmapa/' target='_blank'><FaFacebook  size={15}/></a>
-               <a href='https://www.instagram.com/ayalageee/' target='_blank'><FaInstagram size={15} /></a>
-                <a href='https://www.linkedin.com/in/kenneth-cervantes' target='_blank'><FaLinkedin size={15} /></a>
-                <a href='#'><FaWhatsapp  size={15}/></a>
+                    <a href='https://www.facebook.com/gugmapa/' target='_blank' rel="noreferrer"><FaFacebook  size={15}/></a>
+               <a href='https://www.instagram.com/ayalageee/' target='_blank' rel="noreferrer"><FaInstagram size={15} /></a>
+                <a href='https://www.linkedin.com/in/kenneth-cervantes' target='_blank' rel="noreferrer"><FaLinkedin size={15} /></a>
+                <a href='#home'><FaWhatsapp  size={15}/></a>
               </div>
                 </div>
             </motion.div>
