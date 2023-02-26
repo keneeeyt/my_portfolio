@@ -19,9 +19,9 @@ function footer() {
                     <h5 className='text-[0.85rem]'>Follow Me</h5>
                     <div className='h-[2px] w-[3rem] bg-[#c5d9f8]'></div>
                     <div className='flex space-x-3 text-[text-dark_primary]'>
-                <a href='#'><FaFacebook  size={15}/></a>
-               <a href='#'><FaInstagram size={15} /></a>
-                <a href='#'><FaLinkedin size={15} /></a>
+                    <a href='https://www.facebook.com/gugmapa/' target='_blank'><FaFacebook  size={15}/></a>
+               <a href='https://www.instagram.com/ayalageee/' target='_blank'><FaInstagram size={15} /></a>
+                <a href='https://www.linkedin.com/in/kenneth-cervantes' target='_blank'><FaLinkedin size={15} /></a>
                 <a href='#'><FaWhatsapp  size={15}/></a>
               </div>
                 </div>

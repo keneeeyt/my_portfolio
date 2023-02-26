@@ -57,9 +57,9 @@ function Contact() {
                 )
               })}
               <div className='flex mt-5 space-x-3 text-[text-dark_primary]'>
-                <a href='#'><FaFacebook  size={26}/></a>
-               <a href='#'><FaInstagram size={26} /></a>
-                <a href='#'><FaLinkedin size={26} /></a>
+                <a href='https://www.facebook.com/gugmapa/' target='_blank'><FaFacebook  size={26}/></a>
+               <a href='https://www.instagram.com/ayalageee/' target='_blank'><FaInstagram size={26} /></a>
+                <a href='https://www.linkedin.com/in/kenneth-cervantes' target='_blank'><FaLinkedin size={26} /></a>
                 <a href='#'><FaWhatsapp  size={26}/></a>
               </div>
           </motion.div>
@@ -89,7 +89,7 @@ function Contact() {
           whileHover={{scale: 1.1}}
           transition= {{duration: 0.3}}
           
-          className='btn w-[60%] md:w-[30%] mt-5'>
+          className='btn w-[60%] md:w-[40%] lg:w-[30%] mt-5'>
             <button type='submit'>Send</button>
           </motion.div>
           </form>
