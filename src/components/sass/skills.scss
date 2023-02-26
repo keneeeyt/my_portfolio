@@ -1,0 +1,86 @@
+.skills button {
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 30px ;
+    padding-right: 30px;
+    border-radius:7px 7px 30px 7px ;
+    border: 2px solid #06223F;
+    font-weight: 500;
+   
+    &.active {
+        background: #c5d9f8;
+        border: none;
+        color: white;
+    }
+    
+  }
+ 
+
+  .icons svg {
+    width: 80px;
+    height: 80px;
+    color: #06223F;
+    border-radius: 50%;
+  }
+
+
+  .project button {
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-left: 15px ;
+    padding-right: 15px;
+    border-radius:7px 7px 7px 7px ;
+    border: 2px solid #06223F;
+    font-weight: 500;
+
+    &.active {
+        background: #c5d9f8;
+        border: none;
+        color: white;
+    }
+  }
+
+  .images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .iconView a {
+    width: 40px;
+    height: 40px;
+    background: rgba(255,255,255,0.30);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     border-radius: 50%;
+
+   
+  }
+
+  
+
+  .right_info {
+    .row {
+        width:100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap:0.5rem;
+    }
+    input {
+        margin-bottom: 0.5rem;
+        padding: 1rem 1.5rem;
+        background: #f3f3f3;
+        border-radius: 5px;
+    }
+
+    textarea {
+        margin-bottom: 0.5rem;
+        padding: 1rem 1.5rem;
+        background: #f3f3f3;
+        border-radius: 5px;
+        resize: none;
+        min-height: 150px;
+    }
+
+  }
