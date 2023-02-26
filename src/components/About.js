@@ -11,7 +11,7 @@ function About() {
  
 
   return (
-    <section className='min-h-screen bg-bg_light_primary'>
+    <section className='min-h-screen bg-bg_light_primary' id='about'>
      <div className='container mx-auto'>
       <motion.div 
         initial ={{opacity: 0}}

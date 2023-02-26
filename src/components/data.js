@@ -25,8 +25,12 @@ export const content = {
       icon: TbSmartHome,
     },
     {
-      link: "#skills",
+      link: "#about",
       icon: BiUser,
+    },
+    {
+      link: "#skills",
+      icon: RiServiceLine,
     },
     {
       link: "#projects",
