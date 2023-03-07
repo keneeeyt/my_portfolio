@@ -96,7 +96,7 @@ export const contacts = [
     {
       id: 2,
       icon: <FaPaperPlane />,
-      infoText: "cervantes@gmail.com"
+      infoText: "cervantes.klc@gmail.com"
     },
     {
       id: 3,
