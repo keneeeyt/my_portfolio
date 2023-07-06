@@ -51,6 +51,11 @@ function Skills() {
           { active === 2 ? 
           
           <div className='mt-10 md:mt-[150px] mx-auto grid grid-cols-2 gap-3'>
+          <div className='flex items-center justify-start md:justify-center lg:pl-[150px] font-semibold'>2023</div>
+              <div className='flex flex-col lg:pl-5 font-semibold'>
+              FULL STACK SOFTWARE DEVELOPER
+              <span className='text-xs font-thin'>SPARKSOFT SOLUTIONS INC.</span>
+              </div>
               <div className='flex items-center justify-start md:justify-center lg:pl-[150px] font-semibold'>2023</div>
               <div className='flex flex-col lg:pl-5 font-semibold'>
               SOFTWARE ENGINEER

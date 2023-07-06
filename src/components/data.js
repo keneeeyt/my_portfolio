@@ -8,6 +8,7 @@ import project1 from '../assets/project1.png';
 import project2 from '../assets/project2.png';
 import project3 from '../assets/project3.png';
 import project4 from '../assets/project4.png';
+import project5 from '../assets/trailrun.JPG';
 import {FaMapMarkerAlt, FaPaperPlane, FaPhoneAlt, FaFacebook, FaInstagram, FaLinkedin, FaWhatsapp} from 'react-icons/fa';
 
 
@@ -78,7 +79,15 @@ export const projectImages = [
         category: 'app',
         link: 'https://gitlab.com/b245-cervantes/capstone2-cervantes/noah-store-api/noah-store-api',
         link2: 'https://gitlab.com/b245-cervantes/capstone2-cervantes/noah-store-api/noah-store-api'
-    }
+    },
+    {
+      id: 5,
+      img: project5,
+      name: 'Trailrun Time Tracker APP',
+      category: 'app',
+      link: 'https://trailrun-time-tracking-fe.vercel.app/',
+      link2: 'https://github.com/keneeeyt/trailrun-time-tracking-fe'
+  }
     
 ]
 

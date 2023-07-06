@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, {useEffect, useState } from 'react';
 import { projectNavs } from './data';
 import './sass/skills.scss';
 import { projectImages } from './data';
@@ -41,9 +41,11 @@ function Portfolio() {
       <div className='project space-x-3 flex justify-center mt-10'> 
           {projectNavs.map((projectNav, index)=> {
             return(
+         
               <button onClick={(e) => activeTab(e, index)}  key={index} className={`${active === index ? 'active' : ''}`}>
                 {projectNav}
               </button>
+              
             )
           })}
       </div>
@@ -58,7 +60,8 @@ function Portfolio() {
             return (
            
               <div className='images max-w-[380px] h-[250px] mx-auto relative' key={project.id}>
-              <img src={project.img} alt='projects' className='rounded-lg drop-shadow-lg' />
+              <img src={project.img} alt='projects' className='p-4 rounded-lg drop-shadow-lg' />
+              <small className='flex justify-center p-1 text-[text-dark_primary]'>{project.name}</small>
             <motion.div 
             initial={{opacity: 0}}
             whileHover={{opacity: [0, 1]}}
