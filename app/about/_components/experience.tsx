@@ -87,7 +87,7 @@ const Experience = () => {
             className="relative text-7xl tracking-wide font-semibold text-white"
             style={{ fontFamily: "The Coastal, sans-serif" }}
           >
-            Work Experiences
+            Work Experience
           </h2>
         </div>
 
