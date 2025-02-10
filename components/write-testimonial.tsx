@@ -62,6 +62,20 @@ const WriteTestimonial = ({
     }
   };
 
+  const MAX_CHAR_LIMIT = 500;
+
+  const handleTestimonialChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
+    const text = e.target.value;
+    if (text.length <= MAX_CHAR_LIMIT) {
+      setTestimonial(text);
+      if (text.length === MAX_CHAR_LIMIT) {
+        toast.error("You have reached the 500-character limit.");
+      }
+    } else {
+      setTestimonial(text.slice(0, MAX_CHAR_LIMIT));
+    }
+  };
+
   const logoutUser = () => {
     localStorage.removeItem("user_details");
     setIsAuth(false);
@@ -202,7 +216,7 @@ const WriteTestimonial = ({
                         value={testimonial}
                         id="testimonial"
                         placeholder="Write your testimonial here..."
-                        onChange={(e) => setTestimonial(e.target.value)}
+                        onChange={handleTestimonialChange}
                       />
                     </LabelInputContainer>
                     <LabelInputContainer>

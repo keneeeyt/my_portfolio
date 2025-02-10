@@ -126,7 +126,7 @@ export const InfiniteMovingCards = ({
 
               <div className="id-item hidden">{item.user_id}</div>
 
-              <span className="relative z-20 text-sm md:text-lg leading-[1.6] text-white/70 font-normal">
+              <span className="relative z-20 text-sm md:text-base leading-[1.6] text-white/70 font-normal">
                 {item.user_testimonial}
               </span>
 
