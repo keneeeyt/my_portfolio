@@ -99,7 +99,7 @@ export const BentoGridItem = ({
                   title="View Project"
                   position="right"
                   icon={<MdNavigateNext />}
-                  otherClasses="gap-4 h-12 rounded-2xl px-6"
+                  otherClasses="gap-4 h-12 rounded-2xl px-6 text-xs md:text-base"
                 />
               </a>
               <span className="group custom-hover-cursor">
@@ -110,7 +110,7 @@ export const BentoGridItem = ({
                   className="flex items-center gap-2"
                 >
                   <FaLink className="group-hover:text-purple" />
-                  <p className="group-hover:underline group-hover:underline-offset-1">
+                  <p className="group-hover:underline group-hover:underline-offset-1 text-xs md:text-base">
                     Open Live Site
                   </p>
                 </a>
@@ -142,13 +142,13 @@ export const BentoGridItem = ({
                 </div>
               </div>
             </div>
-            <div className="p-2 flex items-center justify-between">
+            <div className="p-2 flex items-center justify-between text-">
               <a href={`/projects/${pathname}`}>
                 <MagicButton
                   title="View Project"
                   position="right"
                   icon={<MdNavigateNext />}
-                  otherClasses="gap-4 h-12 rounded-2xl px-6"
+                  otherClasses="gap-4 h-12 rounded-2xl px-6 text-xs md:text-base"
                 />
               </a>
               <span className="group custom-hover-cursor">
@@ -159,7 +159,7 @@ export const BentoGridItem = ({
                   className="flex items-center gap-2"
                 >
                   <FaLink className="group-hover:text-purple" />
-                  <p className="group-hover:underline group-hover:underline-offset-1">
+                  <p className="group-hover:underline group-hover:underline-offset-1 text-xs md:text-base">
                     Open Live Site
                   </p>
                 </a>
