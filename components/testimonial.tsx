@@ -214,7 +214,7 @@ const Testimonials = () => {
             transition: { duration: 0.8, ease: "easeOut" },
           },
         }}
-        className="mt-10"
+        className="mt-6"
       >
         {!isLoading && testimonialsData.length > 0 && <WriteTestimonial  getData={getData}  setUserData={setUserData} />}
       </motion.div>
