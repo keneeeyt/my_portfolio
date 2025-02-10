@@ -1,8 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  reactStrictMode: true,
-  optimizeFonts: true,
+  reactStrictMode: false,
+  optimizeFonts: false,
   images: {
     domains: [
       "res.cloudinary.com",
