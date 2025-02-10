@@ -80,7 +80,7 @@ const AboutMe = () => {
             title="Kenneth Louie Cervantes"
             mini_title="Currently working as a Software Engineer at"
             mini_title_highlight="Sparksoft"
-            content="I am a Full-Stack Software Engineer who loves solving problems and building web applications. My journey started with curiosity—learning how code works, fixing bugs, and improving with every project. But my passion is not just coding. I love the thrill of riding motorcycles and extreme sports. Just like in programming, I enjoy challenges, speed, and pushing my limits. From small projects to complex systems, I keep growing—writing clean code, creating seamless experiences, and enjoying every ride along the way."
+            content="I am a Full-Stack Software Engineer who loves solving problems and building web applications. My journey started with curiosity learning how code works, fixing bugs, and improving with every project. But my passion is not just coding. I love the thrill of riding motorcycles and extreme sports. Just like in programming, I enjoy challenges, speed, and pushing my limits. From small projects to complex systems, I keep growing writing clean code, creating seamless experiences, and enjoying every ride along the way."
             stack_title="here are my current favorite tech stack:"
           />
           <motion.svg
