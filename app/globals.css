@@ -4,14 +4,14 @@
 
 @font-face {
   font-family: 'Crosshatcher';
-  src: url('/fonts/Crosshatcher\ D.otf') format('opentype'); /* OTF format */
+  src: url('/fonts/Crosshatcher D.otf') format('opentype'); /* OTF format */
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'The Coastal';
-  src: url('/fonts/The\ Coastal.ttf') format('truetype'); /* TTF format */
+  src: url('/fonts/The Coastal.ttf') format('truetype'); /* TTF format */
   font-weight: normal;
   font-style: normal;
 }
