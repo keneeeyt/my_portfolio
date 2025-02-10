@@ -32,7 +32,7 @@ const Hero = () => {
     },
     {
       id: 4,
-      link: "",
+      link: "https://drive.google.com/file/d/1IH0QqvXvEnLCYZPCRi17cTgrj5FNTzop/view?usp=drive_link",
       name: "Resume",
       content: (
         <IoDocumentAttachOutline className="text-2xl hover:text-purple transition" />
